@@ -46,18 +46,24 @@ class DoctorAppBar extends StatelessWidget {
           Container(
             height: getRelativeHeight(0.06),
             decoration: BoxDecoration(
-                boxShadow: const [
-                  BoxShadow(
-                    blurRadius: 3,
-                    offset: Offset(0, 4),
-                    color: Colors.black54,
-                  )
-                ],
-                color: const Color(0xffA295FD),
-                borderRadius: BorderRadius.circular(5)),
+              boxShadow: const [
+                BoxShadow(
+                  blurRadius: 3,
+                  offset: Offset(0, 4),
+                  color: Colors.black54,
+                )
+              ],
+              color: const Color(0xffA295FD),
+              borderRadius: BorderRadius.circular(
+                5,
+              ),
+            ),
             child: ClipRRect(
-                borderRadius: BorderRadius.circular(5),
-                child: Image.asset("assets/images/person.png")),
+              borderRadius: BorderRadius.circular(5),
+              child: Image.asset(
+                "assets/images/person.png",
+              ),
+            ),
           )
         ],
       ),
