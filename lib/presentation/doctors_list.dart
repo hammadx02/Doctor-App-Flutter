@@ -41,7 +41,7 @@ class DoctorsList extends StatelessWidget {
                                 alignment: Alignment.bottomCenter,
                                 child: Container(
                                   decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.only(
+                                    borderRadius: const BorderRadius.only(
                                       topLeft: Radius.circular(25),
                                       topRight: Radius.circular(25),
                                     ),
@@ -106,7 +106,7 @@ class DoctorsList extends StatelessWidget {
                         Container(
                           height: getRelativeHeight(0.12),
                           width: double.infinity,
-                          decoration: BoxDecoration(
+                          decoration: const BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.only(
                                   bottomLeft: Radius.circular(25),
@@ -148,7 +148,7 @@ class DoctorsList extends StatelessWidget {
                                           horizontal: getRelativeWidth(0.005)),
                                       itemCount: 5,
                                       updateOnDrag: false,
-                                      itemBuilder: (context, _) => Icon(
+                                      itemBuilder: (context, _) => const Icon(
                                         Icons.star,
                                         color: Colors.orange,
                                       ),
@@ -176,7 +176,7 @@ class DoctorsList extends StatelessWidget {
                           padding: EdgeInsets.only(top: getRelativeHeight(0.04))
                               .copyWith(left: cardWidth * 0.7),
                           child: Container(
-                            decoration: BoxDecoration(boxShadow: [
+                            decoration: const BoxDecoration(boxShadow: [
                               BoxShadow(
                                 blurRadius: 10,
                                 offset: Offset(0, 3),

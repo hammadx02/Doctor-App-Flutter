@@ -29,23 +29,22 @@ class Data {
 
   static final doctorsList = [
     Doctor(
-        name: "Dr.Hegazy Ali",
+        name: "Dr.Jawad",
         speciality: "Cardiology",
         image: "assets/images/doctor_1.png",
         reviews: 80,
         reviewScore: 4),
     Doctor(
-        name: "Dr.Dani",
+        name: "Dr.Saba",
         speciality: "Dermatology",
         image: "assets/images/doctor_2.png",
         reviews: 67,
         reviewScore: 5),
     Doctor(
-        name: "Dr George",
+        name: "Dr.Irfan",
         speciality: "Ophthalmology",
         image: "assets/images/doctor_3.png",
         reviews: 19,
         reviewScore: 3),
-   
   ];
 }
