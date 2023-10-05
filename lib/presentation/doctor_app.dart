@@ -32,7 +32,7 @@ class _DoctorScreenState extends State<DoctorScreen> {
               SizedBox(height: getRelativeHeight(0.025)),
               const CategoriesList(),
               SizedBox(height: getRelativeHeight(0.01)),
-               DoctorsList()
+               const DoctorsList()
             ],
           ),
         ),
@@ -45,7 +45,7 @@ class _DoctorScreenState extends State<DoctorScreen> {
           });
         },
         centerIcon: Icons.place,
-        itemIcons: [
+        itemIcons: const [
           Icons.home,
           Icons.notifications,
           Icons.message,
