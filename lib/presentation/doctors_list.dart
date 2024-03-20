@@ -25,7 +25,7 @@ class DoctorsList extends StatelessWidget {
               (kCategoriesSecondryColor.length - index - 1)];
           final circleColor = kCategoriesPrimaryColor[
               (kCategoriesPrimaryColor.length - index - 1)];
-          final cardWidth = getRelativeWidth(0.48);
+          final cardWidth = getRelativeWidth(0.50);
           return Row(
             children: [
               Container(
