@@ -34,7 +34,7 @@ class _DoctorScreenState extends State<DoctorScreen> {
               SizedBox(height: getRelativeHeight(0.025)),
               const CategoriesList(),
               SizedBox(height: getRelativeHeight(0.01)),
-               const DoctorsList()
+              const DoctorsList()
             ],
           ),
         ),
